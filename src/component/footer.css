@@ -1,0 +1,196 @@
+.logo{
+    background: none;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.videoDiv{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.videoDiv video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ video::after{
+    content: '';
+    position: absolute;
+    background: rgba(10, 84, 107, 0.307);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+}
+.secContent{
+    width: 100%;
+    height: max-content;
+    padding: 2rem initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    row-gap: 2rem;
+    z-index: 100;
+}
+.contactDiv{
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+ .name{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(247, 227, 5);
+}
+ h2{
+    color: rgb(250, 248, 248);
+    font-size: 40px;
+    text-align: center;
+    
+}
+.inputDiv{
+    width: 100%;
+    gap: 1rem;
+    flex-direction: column;
+}
+.inputDiv input{
+    width: 100%;
+    padding: -5rem -6rem;
+    border-radius: 3rem;
+    border: 2px solid rgb(246, 246, 246);
+    outline: none;
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+.inputDiv input &::placeholder{
+    color: rgb(1, 1, 1);
+    opacity: -2;
+}
+.btn4{
+    width: 50%;
+    margin-left: 90px;
+    justify-content: center;
+    color: hsl(0, 3%, 6%);
+    font-weight: 500;
+    gap: -5rem;
+    border-radius: 20px;
+}
+ .icon{
+    font: -18px;
+}
+.footerCard{
+    position: relative;
+    padding: 1rem 1rem 4rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.534);
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.footerIntro{
+    flex-basis: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: .5rem;
+
+    
+}
+.logo4{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+ 
+ .icon6{
+    font-size: 25px;
+    color: hsl(0, 0%, 0%);
+    margin-right:10px ;
+}
+.footerParagraph{
+font-size: 16px;
+color: rgb(0, 0, 0);
+}
+.footerSocial{
+column-gap: .5rem;
+.icon6{
+    color: black;
+    font-size: 20px;
+    &:hover{
+        color: cornflowerblue;
+    }
+    }
+}
+.footerLinks{
+    flex-basis: 50%;
+    width: 100%;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+
+    .linkGroup{
+        .groupTitle{
+            display: block;
+            font-weight: 600;
+            color: black;
+            margin-bottom: .5rem;
+        }
+        .footerList{
+            font-size: 15px;
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+            transition: .3s ease-in-out;
+            text-decoration: none;
+
+            .icon6{
+                font-size: 15px;
+                color: rgb(0, 0, 0);
+            }
+            &:hover{
+                color: rgb(5, 107, 75);
+                transform: translateX(7px);
+                .icon6{
+                    color: rgb(4, 2, 68);
+                    
+                }
+            }
+        }
+    }
+}
+
+
+.footerDiv{
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #07ccea;
+    padding: -5rem 2rem;
+    text-align: center;
+    /* justify-content: space-between; */
+
+
+    small{
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+    }
+}

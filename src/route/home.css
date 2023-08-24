@@ -1,0 +1,107 @@
+
+
+.img{
+    
+   width: 100%;
+   
+   
+    
+}
+.hero-text{
+    
+    position: absolute;
+    top: 40%;
+    justify-content: center;
+    transform: translate(-80% -80%);
+}
+.hero-text h1{
+    margin-left: 10%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    background: rgb(232, 228, 228);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero-text p{
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 0 0.2rem 0;
+}
+.card-body1{
+    position: relative;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    gap: 1rem;
+    
+}
+.label-total{
+    justify-content: space-between;
+    align-items:center ;
+    
+}
+.total{
+    color: rgb(13, 13, 13);
+    font-size: 18px;
+    /* padding-bottom: 10px; */
+}
+.input{
+    height: 40px;
+    padding: 0 1rem;
+    background: rgb(172, 212, 179);
+    border-radius: 3rem;
+
+    
+}
+
+.card2{
+
+    margin-left: 25%;
+    width: 800px;
+    
+    
+    
+}
+
+label{
+    display: block;
+    color: rgb(14, 14, 15);
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px;
+
+    
+}
+&::placeholder{
+    font-size: 13px;
+}
+.searchOption{
+    position: absolute;
+    width: max-content;
+    bottom: -1.5rem;
+    column-gap: -8rem;
+    padding: 5px 1rem;
+    border-radius: 3rem;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+    background-color: rgba(45, 120, 120, 0.992);
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 18px;
+    color: rgb(62, 51, 48);
+}
